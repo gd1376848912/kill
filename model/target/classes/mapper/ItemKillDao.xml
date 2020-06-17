@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.debug.kill.model.dao.ItemKillDao">
+
+    <resultMap type="com.debug.kill.model.entity.ItemKill" id="ItemKillMap">
+        <result property="id" column="id" jdbcType="INTEGER"/>
+        <result property="itemId" column="item_id" jdbcType="INTEGER"/>
+        <result property="total" column="total" jdbcType="INTEGER"/>
+        <result property="startTime" column="start_time" jdbcType="TIMESTAMP"/>
+        <result property="endTime" column="end_time" jdbcType="TIMESTAMP"/>
+        <result property="isActive" column="is_active" jdbcType="OTHER"/>
+        <result property="createTime" column="create_time" jdbcType="TIMESTAMP"/>
+    </resultMap>
+
+    <resultMap type="com.debug.kill.model.entity.ItemKillVO" id="ItemKillMapVO">
+        <result property="id" column="id" jdbcType="INTEGER"/>
+        <result property="itemId" column="item_id" jdbcType="INTEGER"/>
+        <result property="total" column="total" jdbcType="INTEGER"/>
+        <result property="startTime" column="start_time" jdbcType="TIMESTAMP"/>
+        <result property="endTime" column="end_time" jdbcType="TIMESTAMP"/>
+        <result property="isActive" column="is_active" jdbcType="OTHER"/>
+        <result property="createTime" column="create_time" jdbcType="TIMESTAMP"/>
+        <result property="itemName" column="itemName" jdbcType="VARCHAR" />
+        <result property="canKill" column="canKill" jdbcType="INTEGER" />
+    </resultMap>
+
+    <!--查询单个-->
+    <select id="queryById" resultMap="ItemKillMapVO">
+        select a.name as itemName,b.*,
+          case when now() BETWEEN b.start_time and b.end_time and total > 0 then 1 else 0 end as canKill
+          from item_kill b left join item a on a.id = b.item_id
+          where b.id = #{id}
+    </select>
+
+    <!--查询指定行数据-->
+    <select id="queryAllByLimit" resultMap="ItemKillMap">
+        select
+          id, item_id, total, start_time, end_time, is_active, create_time
+        from db_second_kill.item_kill
+        limit #{offset}, #{limit}
+    </select>
+
+    <!--通过实体作为筛选条件查询-->
+    <select id="queryAll" resultMap="ItemKillMap">
+        select
+          id, item_id, total, start_time, end_time, is_active, create_time
+        from db_second_kill.item_kill
+        <where>
+            <if test="id != null">
+                and id = #{id}
+            </if>
+            <if test="itemId != null">
+                and item_id = #{itemId}
+            </if>
+            <if test="total != null">
+                and total = #{total}
+            </if>
+            <if test="startTime != null">
+                and start_time = #{startTime}
+            </if>
+            <if test="endTime != null">
+                and end_time = #{endTime}
+            </if>
+            <if test="isActive != null">
+                and is_active = #{isActive}
+            </if>
+            <if test="createTime != null">
+                and create_time = #{createTime}
+            </if>
+        </where>
+    </select>
+
+    <!--新增所有列-->
+    <insert id="insert" keyProperty="id" useGeneratedKeys="true">
+        insert into db_second_kill.item_kill(item_id, total, start_time, end_time, is_active, create_time)
+        values (#{itemId}, #{total}, #{startTime}, #{endTime}, #{isActive}, #{createTime})
+    </insert>
+
+    <!--通过主键修改数据-->
+    <update id="update">
+        update db_second_kill.item_kill
+        set total = total - 1
+        where id = #{id}
+    </update>
+
+    <select id="queryKillItem" resultMap="ItemKillMapVO">
+        select a.name as itemName,b.*,case when now() BETWEEN b.start_time and b.end_time and total > 0 then 1 else 0 end as canKill from item_kill b left join item a on a.id = b.item_id
+    </select>
+
+    <!--通过主键删除-->
+    <delete id="deleteById">
+        delete from db_second_kill.item_kill where id = #{id}
+    </delete>
+
+</mapper>
