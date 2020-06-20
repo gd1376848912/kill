@@ -2,6 +2,7 @@ package com.debug.kill.server.service.impl;
 
 import com.debug.kill.model.dao.ItemKillSuccessDao;
 import com.debug.kill.model.entity.ItemKillSuccess;
+import com.debug.kill.model.entity.OrderInfo;
 import com.debug.kill.server.service.ItemKillSuccessService;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
@@ -28,7 +29,7 @@ public class ItemKillSuccessServiceImpl implements ItemKillSuccessService {
      * @return 实例对象
      */
     @Override
-    public ItemKillSuccess queryById(String code) {
+    public OrderInfo queryById(String code) {
         return this.itemKillSuccessDao.queryById(code);
     }
 
@@ -81,5 +82,10 @@ public class ItemKillSuccessServiceImpl implements ItemKillSuccessService {
     @Override
     public ItemKillSuccess verifyRepeat(ItemKillSuccess itemKillSuccess) {
         return this.itemKillSuccessDao.verifyRepeat(itemKillSuccess);
+    }
+
+    @Override
+    public void expireOrder(String code) {
+        itemKillSuccessDao.expireOrder(code);
     }
 }

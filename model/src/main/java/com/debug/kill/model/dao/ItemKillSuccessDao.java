@@ -1,6 +1,7 @@
 package com.debug.kill.model.dao;
 
 import com.debug.kill.model.entity.ItemKillSuccess;
+import com.debug.kill.model.entity.OrderInfo;
 import org.apache.ibatis.annotations.Param;
 import org.apache.ibatis.annotations.Mapper;
 import java.util.List;
@@ -20,7 +21,7 @@ public interface ItemKillSuccessDao {
      * @param code 主键
      * @return 实例对象
      */
-    ItemKillSuccess queryById(String code);
+    OrderInfo queryById(String code);
 
     /**
      * 查询指定行数据
@@ -66,4 +67,6 @@ public interface ItemKillSuccessDao {
 
 
     ItemKillSuccess verifyRepeat(ItemKillSuccess itemKillSuccess);
+
+    void expireOrder(String code);
 }

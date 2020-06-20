@@ -13,4 +13,6 @@
 <body>
     <h1>抢购失败-商品已被抢购完毕!!</h1>
 </body>
+<script>
+</script>
 </html>

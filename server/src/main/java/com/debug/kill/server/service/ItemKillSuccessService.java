@@ -1,6 +1,8 @@
 package com.debug.kill.server.service;
 
 import com.debug.kill.model.entity.ItemKillSuccess;
+import com.debug.kill.model.entity.OrderInfo;
+
 import java.util.List;
 
 /**
@@ -17,7 +19,7 @@ public interface ItemKillSuccessService {
      * @param code 主键
      * @return 实例对象
      */
-    ItemKillSuccess queryById(String code);
+    OrderInfo queryById(String code);
 
     /**
      * 查询多条数据
@@ -52,7 +54,13 @@ public interface ItemKillSuccessService {
      */
     boolean deleteById(String code);
 
+    /**
+     *
+     * @param itemKillSuccess
+     * @return
+     */
     ItemKillSuccess verifyRepeat(ItemKillSuccess itemKillSuccess);
 
+    void expireOrder(String code);
 
 }

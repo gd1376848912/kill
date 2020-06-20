@@ -6,6 +6,7 @@ import com.debug.kill.model.entity.ItemKillSuccess;
 import com.debug.kill.server.enums.SysConstant;
 import com.debug.kill.server.service.ItemKillService;
 import com.debug.kill.server.service.ItemKillSuccessService;
+import com.debug.kill.server.service.RabbitMqSendService;
 import com.debug.kill.server.utils.SnowFlake;
 import com.sun.scenario.effect.impl.sw.sse.SSEBlend_SRC_OUTPeer;
 import org.joda.time.DateTime;
@@ -33,6 +34,9 @@ public class ItemKillSuccessController {
 
     @Resource
     private ItemKillService itemKillService;
+
+    @Resource
+    private RabbitMqSendService rabbitMqSendService;
 
     private SnowFlake snowFlake=new SnowFlake(2,3);
 
@@ -67,6 +71,9 @@ public class ItemKillSuccessController {
                 ItemKill updateKill = new ItemKill();
                 updateKill.setId(itemKillSuccess.getKillId());
                 this.itemKillService.update(updateKill);
+                //rabbitMqSendService.sendKillSuccessMsg("123123");
+                //rabbitMqSendService.sendMsg(code);
+                rabbitMqSendService.sendDeadMsg(code);
                 return new BaseResponse(0,"秒杀成功");
             }
             return new BaseResponse(2,"秒杀失败，库存已不足");

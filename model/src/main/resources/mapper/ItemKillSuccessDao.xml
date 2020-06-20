@@ -11,12 +11,24 @@
         <result property="createTime" column="create_time" jdbcType="TIMESTAMP"/>
     </resultMap>
 
+    <resultMap type="com.debug.kill.model.entity.OrderInfo" id="OrderMap">
+        <result property="code" column="code" jdbcType="VARCHAR"/>
+        <result property="itemId" column="item_id" jdbcType="INTEGER"/>
+        <result property="killId" column="kill_id" jdbcType="INTEGER"/>
+        <result property="userId" column="user_id" jdbcType="VARCHAR"/>
+        <result property="status" column="status" jdbcType="OTHER"/>
+        <result property="createTime" column="create_time" jdbcType="TIMESTAMP"/>
+        <result property="userName" column="user_name" jdbcType="VARCHAR"/>
+        <result property="itemName" column="name" jdbcType="VARCHAR"/>
+        <result property="email" column="email" jdbcType="VARCHAR"/>
+        <result property="phone" column="phone" jdbcType="VARCHAR"/>
+    </resultMap>
+
     <!--查询单个-->
-    <select id="queryById" resultMap="ItemKillSuccessMap">
-        select
-          code, item_id, kill_id, user_id, status, create_time
-        from db_second_kill.item_kill_success
-        where code = #{code}
+    <select id="queryById" resultMap="OrderMap">
+        select c.name,a.*,b.user_name,b.phone,b.email
+        from db_second_kill.item_kill_success a left join user b on a.user_id = b.id left join item c on a.item_id = c.id
+        where a.code = #{code}
     </select>
 
     <!--查询指定行数据-->
@@ -99,5 +111,9 @@
     <delete id="deleteById">
         delete from db_second_kill.item_kill_success where code = #{code}
     </delete>
+
+    <update id="expireOrder">
+        update item_kill_success set status = -1 where code = #{code} and status = 0
+    </update>
 
 </mapper>

@@ -6,7 +6,76 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="71d97e01-4388-484e-b001-87cf56df7309" name="Default" comment="" />
+    <list default="true" id="71d97e01-4388-484e-b001-87cf56df7309" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/debug/kill/model/entity/Mail.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/debug/kill/model/entity/OrderInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/main/java/com/debug/kill/server/config/RabbitMqConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/main/java/com/debug/kill/server/service/RabbitMqSendService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/main/java/com/debug/kill/server/service/ReceiveService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/target/classes/com/debug/kill/api/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/api/target/classes/com/debug/kill/api/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/target/classes/com/debug/kill/api/enums/StatusCode.class" beforeDir="false" afterPath="$PROJECT_DIR$/api/target/classes/com/debug/kill/api/enums/StatusCode.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/target/classes/com/debug/kill/api/response/BaseResponse.class" beforeDir="false" afterPath="$PROJECT_DIR$/api/target/classes/com/debug/kill/api/response/BaseResponse.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/src/main/java/com/debug/kill/model/dao/ItemKillSuccessDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/model/src/main/java/com/debug/kill/model/dao/ItemKillSuccessDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/src/main/resources/mapper/ItemKillSuccessDao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/model/src/main/resources/mapper/ItemKillSuccessDao.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/target/classes/com/debug/kill/model/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/model/target/classes/com/debug/kill/model/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/target/classes/com/debug/kill/model/dao/ItemDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/model/target/classes/com/debug/kill/model/dao/ItemDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/target/classes/com/debug/kill/model/dao/ItemKillDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/model/target/classes/com/debug/kill/model/dao/ItemKillDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/target/classes/com/debug/kill/model/dao/ItemKillSuccessDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/model/target/classes/com/debug/kill/model/dao/ItemKillSuccessDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/target/classes/com/debug/kill/model/dao/UserDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/model/target/classes/com/debug/kill/model/dao/UserDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/target/classes/com/debug/kill/model/entity/Item.class" beforeDir="false" afterPath="$PROJECT_DIR$/model/target/classes/com/debug/kill/model/entity/Item.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/target/classes/com/debug/kill/model/entity/ItemKill.class" beforeDir="false" afterPath="$PROJECT_DIR$/model/target/classes/com/debug/kill/model/entity/ItemKill.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/target/classes/com/debug/kill/model/entity/ItemKillSuccess.class" beforeDir="false" afterPath="$PROJECT_DIR$/model/target/classes/com/debug/kill/model/entity/ItemKillSuccess.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/target/classes/com/debug/kill/model/entity/ItemKillVO.class" beforeDir="false" afterPath="$PROJECT_DIR$/model/target/classes/com/debug/kill/model/entity/ItemKillVO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/target/classes/com/debug/kill/model/entity/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/model/target/classes/com/debug/kill/model/entity/User.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/target/classes/mapper/ItemKillSuccessDao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/model/target/classes/mapper/ItemKillSuccessDao.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/src/main/java/com/debug/kill/server/controller/ItemKillSuccessController.java" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/main/java/com/debug/kill/server/controller/ItemKillSuccessController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/src/main/java/com/debug/kill/server/service/ItemKillSuccessService.java" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/main/java/com/debug/kill/server/service/ItemKillSuccessService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/src/main/java/com/debug/kill/server/service/impl/ItemKillSuccessServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/main/java/com/debug/kill/server/service/impl/ItemKillSuccessServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/src/main/webapp/WEB-INF/views/executeFail.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/main/webapp/WEB-INF/views/executeFail.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/server/target/classes/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/target/classes/com/debug/kill/server/MainApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/server/target/classes/com/debug/kill/server/MainApplication.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/target/classes/com/debug/kill/server/controller/BaseController.class" beforeDir="false" afterPath="$PROJECT_DIR$/server/target/classes/com/debug/kill/server/controller/BaseController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/target/classes/com/debug/kill/server/controller/ItemController.class" beforeDir="false" afterPath="$PROJECT_DIR$/server/target/classes/com/debug/kill/server/controller/ItemController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/target/classes/com/debug/kill/server/controller/ItemKillController.class" beforeDir="false" afterPath="$PROJECT_DIR$/server/target/classes/com/debug/kill/server/controller/ItemKillController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/target/classes/com/debug/kill/server/controller/ItemKillSuccessController.class" beforeDir="false" afterPath="$PROJECT_DIR$/server/target/classes/com/debug/kill/server/controller/ItemKillSuccessController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/target/classes/com/debug/kill/server/controller/UserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/server/target/classes/com/debug/kill/server/controller/UserController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/target/classes/com/debug/kill/server/enums/SysConstant$OrderStatus.class" beforeDir="false" afterPath="$PROJECT_DIR$/server/target/classes/com/debug/kill/server/enums/SysConstant$OrderStatus.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/target/classes/com/debug/kill/server/enums/SysConstant.class" beforeDir="false" afterPath="$PROJECT_DIR$/server/target/classes/com/debug/kill/server/enums/SysConstant.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/target/classes/com/debug/kill/server/service/ItemKillService.class" beforeDir="false" afterPath="$PROJECT_DIR$/server/target/classes/com/debug/kill/server/service/ItemKillService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/target/classes/com/debug/kill/server/service/ItemKillSuccessService.class" beforeDir="false" afterPath="$PROJECT_DIR$/server/target/classes/com/debug/kill/server/service/ItemKillSuccessService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/target/classes/com/debug/kill/server/service/ItemService.class" beforeDir="false" afterPath="$PROJECT_DIR$/server/target/classes/com/debug/kill/server/service/ItemService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/target/classes/com/debug/kill/server/service/UserService.class" beforeDir="false" afterPath="$PROJECT_DIR$/server/target/classes/com/debug/kill/server/service/UserService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/target/classes/com/debug/kill/server/service/impl/ItemKillServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/server/target/classes/com/debug/kill/server/service/impl/ItemKillServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/target/classes/com/debug/kill/server/service/impl/ItemKillSuccessServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/server/target/classes/com/debug/kill/server/service/impl/ItemKillSuccessServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/target/classes/com/debug/kill/server/service/impl/ItemServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/server/target/classes/com/debug/kill/server/service/impl/ItemServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/target/classes/com/debug/kill/server/service/impl/UserServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/server/target/classes/com/debug/kill/server/service/impl/UserServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/target/classes/com/debug/kill/server/utils/RandomUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/server/target/classes/com/debug/kill/server/utils/RandomUtil.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/target/classes/com/debug/kill/server/utils/SnowFlake.class" beforeDir="false" afterPath="$PROJECT_DIR$/server/target/classes/com/debug/kill/server/utils/SnowFlake.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/target/kill-1.0.1/WEB-INF/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/server/target/kill-1.0.1/WEB-INF/classes/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/target/kill-1.0.1/WEB-INF/classes/com/debug/kill/server/MainApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/server/target/kill-1.0.1/WEB-INF/classes/com/debug/kill/server/MainApplication.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/target/kill-1.0.1/WEB-INF/classes/com/debug/kill/server/controller/BaseController.class" beforeDir="false" afterPath="$PROJECT_DIR$/server/target/kill-1.0.1/WEB-INF/classes/com/debug/kill/server/controller/BaseController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/target/kill-1.0.1/WEB-INF/classes/com/debug/kill/server/controller/ItemController.class" beforeDir="false" afterPath="$PROJECT_DIR$/server/target/kill-1.0.1/WEB-INF/classes/com/debug/kill/server/controller/ItemController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/target/kill-1.0.1/WEB-INF/classes/com/debug/kill/server/controller/ItemKillController.class" beforeDir="false" afterPath="$PROJECT_DIR$/server/target/kill-1.0.1/WEB-INF/classes/com/debug/kill/server/controller/ItemKillController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/target/kill-1.0.1/WEB-INF/classes/com/debug/kill/server/controller/ItemKillSuccessController.class" beforeDir="false" afterPath="$PROJECT_DIR$/server/target/kill-1.0.1/WEB-INF/classes/com/debug/kill/server/controller/ItemKillSuccessController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/target/kill-1.0.1/WEB-INF/classes/com/debug/kill/server/controller/UserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/server/target/kill-1.0.1/WEB-INF/classes/com/debug/kill/server/controller/UserController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/target/kill-1.0.1/WEB-INF/classes/com/debug/kill/server/enums/SysConstant$OrderStatus.class" beforeDir="false" afterPath="$PROJECT_DIR$/server/target/kill-1.0.1/WEB-INF/classes/com/debug/kill/server/enums/SysConstant$OrderStatus.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/target/kill-1.0.1/WEB-INF/classes/com/debug/kill/server/enums/SysConstant.class" beforeDir="false" afterPath="$PROJECT_DIR$/server/target/kill-1.0.1/WEB-INF/classes/com/debug/kill/server/enums/SysConstant.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/target/kill-1.0.1/WEB-INF/classes/com/debug/kill/server/service/ItemKillService.class" beforeDir="false" afterPath="$PROJECT_DIR$/server/target/kill-1.0.1/WEB-INF/classes/com/debug/kill/server/service/ItemKillService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/target/kill-1.0.1/WEB-INF/classes/com/debug/kill/server/service/ItemKillSuccessService.class" beforeDir="false" afterPath="$PROJECT_DIR$/server/target/kill-1.0.1/WEB-INF/classes/com/debug/kill/server/service/ItemKillSuccessService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/target/kill-1.0.1/WEB-INF/classes/com/debug/kill/server/service/ItemService.class" beforeDir="false" afterPath="$PROJECT_DIR$/server/target/kill-1.0.1/WEB-INF/classes/com/debug/kill/server/service/ItemService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/target/kill-1.0.1/WEB-INF/classes/com/debug/kill/server/service/UserService.class" beforeDir="false" afterPath="$PROJECT_DIR$/server/target/kill-1.0.1/WEB-INF/classes/com/debug/kill/server/service/UserService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/target/kill-1.0.1/WEB-INF/classes/com/debug/kill/server/service/impl/ItemKillServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/server/target/kill-1.0.1/WEB-INF/classes/com/debug/kill/server/service/impl/ItemKillServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/target/kill-1.0.1/WEB-INF/classes/com/debug/kill/server/service/impl/ItemKillSuccessServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/server/target/kill-1.0.1/WEB-INF/classes/com/debug/kill/server/service/impl/ItemKillSuccessServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/target/kill-1.0.1/WEB-INF/classes/com/debug/kill/server/service/impl/ItemServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/server/target/kill-1.0.1/WEB-INF/classes/com/debug/kill/server/service/impl/ItemServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/target/kill-1.0.1/WEB-INF/classes/com/debug/kill/server/service/impl/UserServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/server/target/kill-1.0.1/WEB-INF/classes/com/debug/kill/server/service/impl/UserServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/target/kill-1.0.1/WEB-INF/classes/com/debug/kill/server/utils/RandomUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/server/target/kill-1.0.1/WEB-INF/classes/com/debug/kill/server/utils/RandomUtil.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/target/kill-1.0.1/WEB-INF/classes/com/debug/kill/server/utils/SnowFlake.class" beforeDir="false" afterPath="$PROJECT_DIR$/server/target/kill-1.0.1/WEB-INF/classes/com/debug/kill/server/utils/SnowFlake.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/target/kill-1.0.1/WEB-INF/lib/api-1.0.1.jar" beforeDir="false" afterPath="$PROJECT_DIR$/server/target/kill-1.0.1/WEB-INF/lib/api-1.0.1.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/target/kill-1.0.1/WEB-INF/lib/model-1.0.1.jar" beforeDir="false" afterPath="$PROJECT_DIR$/server/target/kill-1.0.1/WEB-INF/lib/model-1.0.1.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/target/kill-1.0.1/WEB-INF/views/executeFail.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/server/target/kill-1.0.1/WEB-INF/views/executeFail.jsp" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/api/target/" />
     <ignored path="$PROJECT_DIR$/server/target/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -50,27 +119,70 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="ItemKillSuccessController.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/server/src/main/java/com/debug/kill/server/controller/ItemKillSuccessController.java">
+      <file leaf-file-name="ReceiveService.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/server/src/main/java/com/debug/kill/server/service/ReceiveService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="290">
-              <caret line="69" column="47" selection-start-line="69" selection-start-column="47" selection-end-line="69" selection-end-column="47" />
+            <state relative-caret-position="559">
+              <caret line="52" column="37" selection-start-line="52" selection-start-column="28" selection-end-line="52" selection-end-column="37" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#1860#1861#0" expanded="true" />
-                <element signature="e#1885#1886#0" expanded="true" />
-                <element signature="e#1966#1967#0" expanded="true" />
-                <element signature="e#2006#2007#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ItemKillServiceImpl.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/server/src/main/java/com/debug/kill/server/service/impl/ItemKillServiceImpl.java">
+      <file leaf-file-name="RabbitMqConfig.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/server/src/main/java/com/debug/kill/server/config/RabbitMqConfig.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="252">
-              <caret line="66" column="29" selection-start-line="66" selection-start-column="20" selection-end-line="66" selection-end-column="29" />
+            <state relative-caret-position="51">
+              <caret line="90" column="24" selection-start-line="90" selection-start-column="24" selection-end-line="90" selection-end-column="24" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#3750#3751#0" expanded="true" />
+                <element signature="e#3840#3841#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="RabbitMqSendService.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/server/src/main/java/com/debug/kill/server/service/RabbitMqSendService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="189">
+              <caret line="66" column="87" selection-start-line="66" selection-start-column="59" selection-end-line="66" selection-end-column="87" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="item_kill_success" pinned="false" current-in-tab="true">
+        <entry file="das://49a9820f-4e2b-4ff3-855a-a961334b8066/schema/db_second_kill/table/item_kill_success">
+          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+            <state>
+              <filtering enabled="true" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Mail.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/model/src/main/java/com/debug/kill/model/entity/Mail.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="294">
+              <caret line="14" column="9" selection-start-line="14" selection-start-column="9" selection-end-line="14" selection-end-column="9" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="RandomUtil.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/server/src/main/java/com/debug/kill/server/utils/RandomUtil.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="699">
+              <caret line="45" column="47" selection-start-line="44" selection-start-column="8" selection-end-line="45" selection-end-column="47" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -81,8 +193,8 @@
       <file leaf-file-name="ItemKillSuccessService.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/server/src/main/java/com/debug/kill/server/service/ItemKillSuccessService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="241">
-              <caret line="54" column="25" lean-forward="true" selection-start-line="54" selection-start-column="25" selection-end-line="54" selection-end-column="25" />
+            <state relative-caret-position="720">
+              <caret line="63" column="14" selection-start-line="63" selection-start-column="14" selection-end-line="63" selection-end-column="14" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -93,40 +205,27 @@
       <file leaf-file-name="ItemKillSuccessServiceImpl.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/server/src/main/java/com/debug/kill/server/service/impl/ItemKillSuccessServiceImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="346">
-              <caret line="81" column="74" selection-start-line="81" selection-start-column="74" selection-end-line="81" selection-end-column="74" />
+            <state relative-caret-position="202">
+              <caret line="22" column="22" selection-start-line="22" selection-start-column="22" selection-end-line="22" selection-end-column="22" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#1239#1240#0" expanded="true" />
-                <element signature="e#1309#1310#0" expanded="true" />
+                <element signature="e#855#856#0" expanded="true" />
+                <element signature="e#917#918#0" expanded="true" />
+                <element signature="e#2156#2157#0" expanded="true" />
+                <element signature="e#2189#2190#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ItemKillSuccessDao.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/model/src/main/java/com/debug/kill/model/dao/ItemKillSuccessDao.java">
+      <file leaf-file-name="ItemKillSuccessController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/server/src/main/java/com/debug/kill/server/controller/ItemKillSuccessController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="283">
-              <caret line="67" column="64" selection-start-line="67" selection-start-column="49" selection-end-line="67" selection-end-column="64" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="info.jsp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/server/src/main/webapp/WEB-INF/views/info.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="420">
-              <caret line="56" column="31" lean-forward="true" selection-start-line="56" selection-start-column="31" selection-end-line="56" selection-end-column="31" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ItemKillSuccessDao.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/model/src/main/resources/mapper/ItemKillSuccessDao.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="283">
-              <caret line="88" column="28" selection-start-line="88" selection-start-column="28" selection-end-line="88" selection-end-column="28" />
+            <state relative-caret-position="433">
+              <caret line="75" column="47" selection-start-line="75" selection-start-column="36" selection-end-line="75" selection-end-column="47" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -151,6 +250,9 @@
       <replace>canKill</replace>
     </replaceStrings>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
@@ -169,7 +271,6 @@
         <option value="$PROJECT_DIR$/server/src/main/java/com/debug/kill/server/service/ItemKillService.java" />
         <option value="$PROJECT_DIR$/server/src/main/java/com/debug/kill/server/service/impl/ItemKillServiceImpl.java" />
         <option value="$PROJECT_DIR$/model/src/main/java/com/debug/kill/model/dao/ItemKillDao.java" />
-        <option value="$PROJECT_DIR$/server/src/main/resources/application.properties" />
         <option value="$PROJECT_DIR$/server/src/main/java/com/debug/kill/server/service/UserService.java" />
         <option value="$APPLICATION_CONFIG_DIR$/consoles/db/49a9820f-4e2b-4ff3-855a-a961334b8066/console_1.sql" />
         <option value="$PROJECT_DIR$/model/src/main/java/com/debug/kill/model/dao/UserDao.java" />
@@ -181,12 +282,21 @@
         <option value="$PROJECT_DIR$/server/src/main/java/com/debug/kill/server/controller/UserController.java" />
         <option value="$PROJECT_DIR$/model/src/main/resources/mapper/ItemKillDao.xml" />
         <option value="$PROJECT_DIR$/model/src/main/java/com/debug/kill/model/entity/ItemKillSuccess.java" />
-        <option value="$PROJECT_DIR$/model/src/main/resources/mapper/ItemKillSuccessDao.xml" />
-        <option value="$PROJECT_DIR$/model/src/main/java/com/debug/kill/model/dao/ItemKillSuccessDao.java" />
-        <option value="$PROJECT_DIR$/server/src/main/java/com/debug/kill/server/service/ItemKillSuccessService.java" />
         <option value="$PROJECT_DIR$/server/src/main/webapp/WEB-INF/views/info.jsp" />
-        <option value="$PROJECT_DIR$/server/src/main/java/com/debug/kill/server/service/impl/ItemKillSuccessServiceImpl.java" />
+        <option value="$PROJECT_DIR$/server/src/main/java/com/debug/kill/server/service/RabbitService.java" />
+        <option value="$PROJECT_DIR$/server/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/model/src/main/java/com/debug/kill/model/entity/Mail.java" />
+        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/49a9820f-4e2b-4ff3-855a-a961334b8066/console.sql" />
+        <option value="$PROJECT_DIR$/model/src/main/java/com/debug/kill/model/entity/OrderInfo.java" />
         <option value="$PROJECT_DIR$/server/src/main/java/com/debug/kill/server/controller/ItemKillSuccessController.java" />
+        <option value="$PROJECT_DIR$/server/src/main/java/com/debug/kill/server/service/MailService.java" />
+        <option value="$PROJECT_DIR$/server/src/main/java/com/debug/kill/server/service/ItemKillSuccessService.java" />
+        <option value="$PROJECT_DIR$/server/src/main/java/com/debug/kill/server/service/impl/ItemKillSuccessServiceImpl.java" />
+        <option value="$PROJECT_DIR$/model/src/main/java/com/debug/kill/model/dao/ItemKillSuccessDao.java" />
+        <option value="$PROJECT_DIR$/model/src/main/resources/mapper/ItemKillSuccessDao.xml" />
+        <option value="$PROJECT_DIR$/server/src/main/java/com/debug/kill/server/service/RabbitMqSendService.java" />
+        <option value="$PROJECT_DIR$/server/src/main/java/com/debug/kill/server/service/ReceiveService.java" />
+        <option value="$PROJECT_DIR$/server/src/main/java/com/debug/kill/server/config/RabbitMqConfig.java" />
       </list>
     </option>
   </component>
@@ -231,9 +341,8 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="20" />
-    <option name="y" value="70" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="185" />
     <option name="width" value="1809" />
     <option name="height" value="883" />
   </component>
@@ -243,7 +352,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
@@ -286,16 +394,6 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="model" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="kill" type="b2602c69:ProjectViewProjectNode" />
-              <item name="kill" type="462c0819:PsiDirectoryNode" />
-              <item name="model" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="model" type="462c0819:PsiDirectoryNode" />
-              <item name="dao" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="kill" type="b2602c69:ProjectViewProjectNode" />
@@ -358,6 +456,16 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="server" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="kill" type="b2602c69:ProjectViewProjectNode" />
+              <item name="kill" type="462c0819:PsiDirectoryNode" />
+              <item name="server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="server" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="kill" type="b2602c69:ProjectViewProjectNode" />
@@ -449,6 +557,7 @@
         </subPane>
       </pane>
       <pane id="AndroidView" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -643,51 +752,63 @@
       <workItem from="1592209577427" duration="1665000" />
       <workItem from="1592211749121" duration="21617000" />
       <workItem from="1592286644897" duration="7956000" />
-      <workItem from="1592388127459" duration="15219000" />
+      <workItem from="1592388127459" duration="16301000" />
+      <workItem from="1592566058648" duration="4357000" />
+      <workItem from="1592626400901" duration="8617000" />
+      <workItem from="1592650478780" duration="5526000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="50906000" />
+    <option name="totallyTimeSpent" value="70488000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="Event Log" order="14" sideWeight="0.50053304" side_tool="true" weight="0.47712418" />
-      <window_info anchor="bottom" id="Application Servers" order="7" weight="0.32897604" />
+      <window_info anchor="bottom" id="Application Servers" order="7" weight="0.32824427" />
       <window_info anchor="right" id="Maven Projects" order="9" weight="0.32995737" />
       <window_info anchor="bottom" id="Database Changes" order="11" show_stripe_button="false" />
       <window_info id="Capture Tool" order="7" />
       <window_info id="Designer" order="2" />
-      <window_info anchor="right" id="Database" order="5" weight="0.32995737" />
+      <window_info anchor="right" id="Database" order="5" visible="true" weight="0.22068231" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="4" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Messages" order="13" weight="0.32897604" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.3293348" />
+      <window_info anchor="bottom" id="Messages" order="13" weight="0.32824427" />
       <window_info anchor="right" id="Palette&#9;" order="6" />
       <window_info id="Image Layers" order="3" />
-      <window_info anchor="bottom" id="Java Enterprise" order="10" />
+      <window_info anchor="bottom" id="Java Enterprise" order="10" weight="0.3293348" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49946696" visible="true" weight="0.47712418" />
-      <window_info anchor="bottom" id="Version Control" order="12" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Spring" order="8" />
-      <window_info anchor="bottom" id="Terminal" order="9" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22707888" />
+      <window_info anchor="bottom" id="Version Control" order="12" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49946696" visible="true" weight="0.26717559" />
+      <window_info anchor="bottom" id="Spring" order="9" weight="0.3293348" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.3293348" />
+      <window_info anchor="bottom" id="Database Console" order="15" weight="0.32824427" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21588486" />
       <window_info anchor="right" id="Bean Validation" order="8" weight="0.32995737" />
       <window_info id="Web" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32897604" />
       <window_info anchor="right" id="Theme Preview" order="7" />
       <window_info id="Favorites" order="5" side_tool="true" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="bottom" id="Database Console" order="15" weight="0.32897604" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32897604" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -702,266 +823,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/server/src/main/java/com/debug/kill/server/controller/BaseController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="12" column="35" selection-start-line="12" selection-start-column="35" selection-end-line="12" selection-end-column="35" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/server/src/main/webapp/WEB-INF/views/welcome.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="8" column="10" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/server/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="924">
-          <caret line="44" column="21" selection-start-line="44" selection-start-column="21" selection-end-line="44" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/49a9820f-4e2b-4ff3-855a-a961334b8066/console.sql">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/model/src/main/java/com/debug/kill/model/dto/KillSuccessUserInfo.java" />
-    <entry file="file://$PROJECT_DIR$/server/src/main/java/com/debug/kill/server/config/ShiroConfig.java" />
-    <entry file="file://$PROJECT_DIR$/model/src/main/java/com/debug/kill/model/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/server/src/main/webapp/WEB-INF/views/welcome.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="8" column="10" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/server/src/main/java/com/debug/kill/server/MainApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="18" column="52" selection-start-line="18" selection-start-column="52" selection-end-line="18" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/server/src/main/resources/mybatis-config.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="441">
-          <caret line="21" selection-start-line="21" selection-end-line="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/server/src/main/resources/application-local.properties">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/server/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-441" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/server/src/main/resources/spring/spring-jdbc.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="12" column="53" selection-start-line="12" selection-start-column="43" selection-end-line="12" selection-end-column="53" />
-          <folding>
-            <element signature="e#604#623#0" expanded="true" />
-            <element signature="e#667#691#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/model/src/main/java/com/debug/kill/model/entity/Item.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1354">
-          <caret line="92" column="14" selection-start-line="92" selection-start-column="8" selection-end-line="92" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/model/src/main/java/com/debug/kill/model/dao/ItemDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="42">
-          <caret line="2" column="40" selection-start-line="2" selection-start-column="40" selection-end-line="2" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/server/src/main/java/com/debug/kill/server/service/impl/ItemServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="63">
-          <caret line="3" column="40" selection-start-line="3" selection-start-column="40" selection-end-line="3" selection-end-column="40" />
-          <folding>
-            <element signature="e#618#619#0" expanded="true" />
-            <element signature="e#667#668#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/server/src/main/java/com/debug/kill/server/controller/BaseController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="11" column="55" selection-start-line="11" selection-start-column="37" selection-end-line="11" selection-end-column="55" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/server/src/main/java/com/debug/kill/server/service/ItemService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-652">
-          <caret line="3" column="40" selection-start-line="3" selection-start-column="40" selection-end-line="3" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/model/src/main/resources/mapper/ItemDao.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="68" column="33" selection-start-line="68" selection-start-column="33" selection-end-line="68" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/server/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="273">
-          <caret line="70" column="39" selection-start-line="70" selection-start-column="39" selection-end-line="70" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_101/src.zip!/java/util/Date.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="423">
-          <caret line="272" column="11" selection-start-line="272" selection-start-column="11" selection-end-line="272" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/server/src/main/java/com/debug/kill/server/controller/ItemController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="17" column="21" selection-start-line="17" selection-start-column="21" selection-end-line="17" selection-end-column="21" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/server/src/main/webapp/WEB-INF/views/head.jsp">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/server/src/main/webapp/WEB-INF/views/login.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="819">
-          <caret line="39" column="70" selection-start-line="39" selection-start-column="62" selection-end-line="39" selection-end-column="70" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/model/src/main/java/com/debug/kill/model/dao/UserDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1113">
-          <caret line="56" column="23" selection-start-line="56" selection-start-column="23" selection-end-line="56" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/server/src/main/java/com/debug/kill/server/service/UserService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1113">
-          <caret line="54" column="24" selection-start-line="54" selection-start-column="24" selection-end-line="54" selection-end-column="24" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/server/src/main/java/com/debug/kill/server/service/impl/UserServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1470">
-          <caret line="82" selection-start-line="82" selection-end-line="82" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1621#1622#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/model/src/main/java/com/debug/kill/model/entity/User.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="18" column="27" selection-start-line="18" selection-start-column="19" selection-end-line="18" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/model/src/main/resources/mapper/UserDao.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2310">
-          <caret line="110" column="30" selection-start-line="110" selection-start-column="22" selection-end-line="110" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/49a9820f-4e2b-4ff3-855a-a961334b8066/console_1.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="18" selection-start-column="18" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/model/src/main/java/com/debug/kill/model/entity/ItemKill.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="172">
-          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/server/src/main/java/com/debug/kill/server/enums/SysConstant.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="73">
-          <caret line="14" column="26" selection-start-line="14" selection-start-column="26" selection-end-line="14" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/server/src/main/java/com/debug/kill/server/utils/SnowFlake.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-172">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/model/src/main/java/com/debug/kill/model/entity/ItemKillVO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="63">
-          <caret line="3" column="35" lean-forward="true" selection-start-line="3" selection-start-column="35" selection-end-line="3" selection-end-column="35" />
-          <folding>
-            <element signature="e#594#595#0" expanded="true" />
-            <element signature="e#624#625#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/server/src/main/java/com/debug/kill/server/controller/UserController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="73">
-          <caret line="37" column="17" selection-start-line="37" selection-start-column="11" selection-end-line="37" selection-end-column="17" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/server/src/main/java/com/debug/kill/server/controller/ItemKillController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="325">
-          <caret line="62" column="5" selection-start-line="62" selection-start-column="5" selection-end-line="62" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/api/src/main/java/com/debug/kill/api/response/BaseResponse.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
@@ -988,32 +849,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/server/src/main/webapp/WEB-INF/views/executeSuccess.jsp">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/server/src/main/java/com/debug/kill/server/utils/RandomUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="301">
-          <caret line="45" column="17" selection-start-line="45" selection-start-column="17" selection-end-line="45" selection-end-column="17" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/model/src/main/java/com/debug/kill/model/dao/ItemKillDao.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="357">
           <caret line="57" column="14" selection-start-line="57" selection-start-column="8" selection-end-line="57" selection-end-column="14" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/server/src/main/java/com/debug/kill/server/service/impl/ItemKillServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
+        <state relative-caret-position="1197">
           <caret line="66" column="29" selection-start-line="66" selection-start-column="20" selection-end-line="66" selection-end-column="29" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -1025,12 +870,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="357">
           <caret line="24" column="26" selection-start-line="24" selection-start-column="20" selection-end-line="24" selection-end-column="26" />
-          <folding>
-            <element signature="e#760#761#0" expanded="true" />
-            <element signature="e#792#793#0" expanded="true" />
-            <element signature="e#1186#1187#0" expanded="true" />
-            <element signature="e#1222#1223#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1053,58 +892,337 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/server/src/main/webapp/WEB-INF/views/info.jsp">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1176">
+          <caret line="56" column="31" selection-start-line="56" selection-start-column="31" selection-end-line="56" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/src/main/webapp/WEB-INF/views/executeSuccess.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="174">
+          <caret line="19" column="82" selection-start-line="19" selection-start-column="74" selection-end-line="19" selection-end-column="82" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/src/main/webapp/WEB-INF/views/executeFail.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="273">
+          <caret line="13" column="21" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/src/main/webapp/WEB-INF/views/killRecord.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-63" />
+      </provider>
+    </entry>
+    <entry file="jar://D:/work &amp; study/maven_localrepository/org/springframework/spring-context-support/4.3.11.RELEASE/spring-context-support-4.3.11.RELEASE.jar!/org/springframework/mail/SimpleMailMessage.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="121">
+          <caret line="72" column="27" selection-start-line="72" selection-start-column="27" selection-end-line="72" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/work &amp; study/maven_localrepository/org/projectlombok/lombok/1.16.10/lombok-1.16.10.jar!/lombok/Data.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="14" column="18" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://49a9820f-4e2b-4ff3-855a-a961334b8066/schema/db_second_kill/table/item_kill_success" />
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/49a9820f-4e2b-4ff3-855a-a961334b8066/console.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="2" selection-end-column="113" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/model/src/main/java/com/debug/kill/model/entity/OrderInfo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-36">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/work &amp; study/maven_localrepository/org/springframework/amqp/spring-amqp/1.7.4.RELEASE/spring-amqp-1.7.4.RELEASE.jar!/org/springframework/amqp/core/Queue.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="462">
+          <caret line="30" column="35" selection-start-line="30" selection-start-column="31" selection-end-line="30" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/work &amp; study/maven_localrepository/org/springframework/amqp/spring-amqp/1.7.4.RELEASE/spring-amqp-1.7.4.RELEASE.jar!/org/springframework/amqp/core/TopicExchange.class">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="420">
-          <caret line="56" column="31" lean-forward="true" selection-start-line="56" selection-start-column="31" selection-end-line="56" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/model/src/main/java/com/debug/kill/model/dao/ItemKillSuccessDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="283">
-          <caret line="67" column="64" selection-start-line="67" selection-start-column="49" selection-end-line="67" selection-end-column="64" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/model/src/main/resources/mapper/ItemKillSuccessDao.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="283">
-          <caret line="88" column="28" selection-start-line="88" selection-start-column="28" selection-end-line="88" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/server/src/main/java/com/debug/kill/server/service/ItemKillSuccessService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="241">
-          <caret line="54" column="25" lean-forward="true" selection-start-line="54" selection-start-column="25" selection-end-line="54" selection-end-column="25" />
+          <caret line="25" selection-start-line="10" selection-end-line="25" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#261#262#0" expanded="true" />
+            <element signature="e#288#289#0" expanded="true" />
+            <element signature="e#366#367#0" expanded="true" />
+            <element signature="e#414#415#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/server/src/main/java/com/debug/kill/server/service/impl/ItemKillSuccessServiceImpl.java">
+    <entry file="file://$PROJECT_DIR$/server/src/main/resources/application.properties">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="346">
-          <caret line="81" column="74" selection-start-line="81" selection-start-column="74" selection-end-line="81" selection-end-column="74" />
+        <state relative-caret-position="331">
+          <caret line="71" column="7" selection-start-line="71" selection-start-column="3" selection-end-line="71" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/src/main/java/com/debug/kill/server/utils/RandomUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="699">
+          <caret line="45" column="47" selection-start-line="44" selection-start-column="8" selection-end-line="45" selection-end-column="47" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1239#1240#0" expanded="true" />
-            <element signature="e#1309#1310#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/server/src/main/java/com/debug/kill/server/controller/ItemKillSuccessController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="290">
-          <caret line="69" column="47" selection-start-line="69" selection-start-column="47" selection-end-line="69" selection-end-column="47" />
+        <state relative-caret-position="433">
+          <caret line="75" column="47" selection-start-line="75" selection-start-column="36" selection-end-line="75" selection-end-column="47" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1860#1861#0" expanded="true" />
-            <element signature="e#1885#1886#0" expanded="true" />
-            <element signature="e#1966#1967#0" expanded="true" />
-            <element signature="e#2006#2007#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://49a9820f-4e2b-4ff3-855a-a961334b8066/schema/db_second_kill/table/item_kill_success">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://49a9820f-4e2b-4ff3-855a-a961334b8066/schema/db_second_kill/table/item_kill_success">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://49a9820f-4e2b-4ff3-855a-a961334b8066/schema/db_second_kill/table/item_kill_success">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://49a9820f-4e2b-4ff3-855a-a961334b8066/schema/db_second_kill/table/item_kill_success">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/model/src/main/resources/mapper/ItemKillSuccessDao.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="664">
+          <caret line="115" column="84" selection-start-line="115" selection-start-column="84" selection-end-line="115" selection-end-column="84" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/model/src/main/java/com/debug/kill/model/dao/ItemKillSuccessDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="748">
+          <caret line="70" column="32" selection-start-line="70" selection-start-column="32" selection-end-line="70" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/src/main/java/com/debug/kill/server/service/impl/ItemKillSuccessServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="202">
+          <caret line="22" column="22" selection-start-line="22" selection-start-column="22" selection-end-line="22" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#855#856#0" expanded="true" />
+            <element signature="e#917#918#0" expanded="true" />
+            <element signature="e#2156#2157#0" expanded="true" />
+            <element signature="e#2189#2190#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/src/main/java/com/debug/kill/server/service/ItemKillSuccessService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="720">
+          <caret line="63" column="14" selection-start-line="63" selection-start-column="14" selection-end-line="63" selection-end-column="14" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/model/src/main/java/com/debug/kill/model/entity/Mail.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="294">
+          <caret line="14" column="9" selection-start-line="14" selection-start-column="9" selection-end-line="14" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://49a9820f-4e2b-4ff3-855a-a961334b8066/schema/db_second_kill/table/item_kill_success">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://49a9820f-4e2b-4ff3-855a-a961334b8066/schema/db_second_kill/table/item_kill_success">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://49a9820f-4e2b-4ff3-855a-a961334b8066/schema/db_second_kill/table/item_kill_success">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://49a9820f-4e2b-4ff3-855a-a961334b8066/schema/db_second_kill/table/item_kill_success">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://49a9820f-4e2b-4ff3-855a-a961334b8066/schema/db_second_kill/table/item_kill_success">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://49a9820f-4e2b-4ff3-855a-a961334b8066/schema/db_second_kill/table/item_kill_success">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://49a9820f-4e2b-4ff3-855a-a961334b8066/schema/db_second_kill/table/item_kill_success">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://49a9820f-4e2b-4ff3-855a-a961334b8066/schema/db_second_kill/table/item_kill_success">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://49a9820f-4e2b-4ff3-855a-a961334b8066/schema/db_second_kill/table/item_kill_success">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://49a9820f-4e2b-4ff3-855a-a961334b8066/schema/db_second_kill/table/item_kill_success">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://49a9820f-4e2b-4ff3-855a-a961334b8066/schema/db_second_kill/table/item_kill_success">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://49a9820f-4e2b-4ff3-855a-a961334b8066/schema/db_second_kill/table/item_kill_success">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://49a9820f-4e2b-4ff3-855a-a961334b8066/schema/db_second_kill/table/item_kill_success">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://49a9820f-4e2b-4ff3-855a-a961334b8066/schema/db_second_kill/table/item_kill_success">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://49a9820f-4e2b-4ff3-855a-a961334b8066/schema/db_second_kill/table/item_kill_success">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://49a9820f-4e2b-4ff3-855a-a961334b8066/schema/db_second_kill/table/item_kill_success">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://49a9820f-4e2b-4ff3-855a-a961334b8066/schema/db_second_kill/table/item_kill_success">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/src/main/java/com/debug/kill/server/service/RabbitMqSendService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="66" column="87" selection-start-line="66" selection-start-column="59" selection-end-line="66" selection-end-column="87" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/src/main/java/com/debug/kill/server/service/ReceiveService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="559">
+          <caret line="52" column="37" selection-start-line="52" selection-start-column="28" selection-end-line="52" selection-end-column="37" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/src/main/java/com/debug/kill/server/config/RabbitMqConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="90" column="24" selection-start-line="90" selection-start-column="24" selection-end-line="90" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#3750#3751#0" expanded="true" />
+            <element signature="e#3840#3841#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://49a9820f-4e2b-4ff3-855a-a961334b8066/schema/db_second_kill/table/item_kill_success">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
         </state>
       </provider>
     </entry>
